@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    background-color: rgb(99, 99, 99);
+    background-image: url(street.jpg);
+    background-repeat: no-repeat;
+    background-size: 1065px;
+}
+
+.house {
+    height: 500px;
+    width: 100px;
+    margin: 20px;
+    margin-left: 40px;
+    border: 5px solid rgb(41, 124, 2);
+    background-color: rgb(87, 87, 87);
+    box-shadow: inset 10px 10px 40px rgb(14, 14, 14);
+}
+
+.buttons {
+    height: 250px;
+    width: 50px;
+    margin: 20px;
+}
+
+.lift {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(150, 118, 118);
+    background-image: url(lift.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 2s;
+}
+
+li {
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(148, 82, 6);
+    background-color: #fff;
+    font-size: 40px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px grey;
+}
+
+li:hover {
+    color: #fff;
+    background-color: rgb(201, 178, 147);
+}
+
+li:active {
+    transform: scale(.92);
+    box-shadow: 1px 1px 15px grey;
+}
